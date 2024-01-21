@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TuneHub: Register</title>
+<link rel="stylesheet" th:href="@{css/registration.css}">
+</head>
+<body>
+	<h2>Registration :</h2>
+	<form action="register" method="post" class="form_align">
+		<div class="form">
+			<div class="radio_flex">
+				<div>
+					<label>User name</label>
+				</div>
+				<div class="input_flex">
+					<div>:</div>
+					<input type="text" name="username">
+				</div>
+			</div>
+			<br>
+			<div class="radio_flex">
+				<div>
+					<label>E-mail</label>
+				</div>
+				<div class="input_flex">
+					<div>:</div>
+					<input type="email" name="email">
+				</div>
+			</div>
+			<br>
+			<div class="radio_flex">
+				<div>
+					<label>Password</label>
+				</div>
+				<div class="input_flex">
+					<div>:</div>
+					<input type="password" name="password">
+				</div>
+			</div>
+			<br>
+			<div class="radio_flex">
+				<div>
+					<label>Gender</label>
+				</div>
+				<div class="input_flex">
+					<div>:</div>
+					<div>
+						<input type="radio" name="gender" value="Male"> <label>Male</label>
+						<input type="radio" name="gender" value="Female"> <label>Female</label>
+						<input type="radio" name="gender" value="Others"> <label>Others</label>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="radio_flex">
+				<div>
+					<label>Role</label>
+				</div>
+				<div class="input_flex">
+					<div>:</div>
+					<div>
+						<input type="radio" name="role" value="Admin"> <label>Admin</label>
+						<input type="radio" name="role" value="Customer"> <label>Customer</label>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="radio_flex">
+				<div>
+					<label>Address</label>
+				</div>
+				<div class="input_flex">
+					<div>:</div>
+					<textarea name="address" rows="" cols=""></textarea>
+				</div>
+			</div>
+		</div>
+		<div>
+			<button>REGISTER</button>
+		</div>
+	</form>
+</body>
+</html>

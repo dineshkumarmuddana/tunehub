@@ -1,0 +1,38 @@
+body {
+	background-color: #58d6ce;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 50px
+}
+
+h1 {
+	font-size: 45px;
+	color: #122b29;
+}
+
+a {
+	display: inline-block;
+	background-color: #122b29;
+	padding: 15px 30px 15px 30px;
+	display: inline-block;
+	color: #58d6ce;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 100px;
+}
+
+a:hover {
+	background-color: #9be6e2;
+	color: #122b29;
+	font-weight: 600;
+	border: solid 2px #122b29;
+}
+
+div {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	justify-content: center;
+}
